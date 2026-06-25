@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{7FD164
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichLabel.Maui", "src\RichLabel.Maui.csproj", "{0DA9ACD7-DAE9-B62E-0EE8-51878EB61369}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.RichLabel.Maui", "sample\Sample.RichLabel.Maui\Sample.RichLabel.Maui.csproj", "{AEB98736-CD81-4BFA-B8FD-3435D9025249}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{0DA9ACD7-DAE9-B62E-0EE8-51878EB61369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DA9ACD7-DAE9-B62E-0EE8-51878EB61369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DA9ACD7-DAE9-B62E-0EE8-51878EB61369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB98736-CD81-4BFA-B8FD-3435D9025249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB98736-CD81-4BFA-B8FD-3435D9025249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB98736-CD81-4BFA-B8FD-3435D9025249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB98736-CD81-4BFA-B8FD-3435D9025249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0DA9ACD7-DAE9-B62E-0EE8-51878EB61369} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AEB98736-CD81-4BFA-B8FD-3435D9025249} = {7FD164B1-A00B-4F5E-8699-2D5665BFE6AA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84844EAC-E33F-42F4-8254-6291EA0FBE09}

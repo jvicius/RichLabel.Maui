@@ -12,9 +12,9 @@
 
 		<!-- Metadata NuGet -->
 		<PackageId>RichLabel.Maui</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Jose Velarde</Authors>
-		<Description>Control MAUI para renderizar texto enriquecido (rich text) desde JSON, con soporte para acciones tap (link, phone, email, custom) extensibles.</Description>
+		<Description>RichLabel.Maui is a powerful and lightweight .NET MAUI control designed to dynamically render rich text directly from a JSON structure. It provides seamless, extensible support for interactive tap gestures, allowing you to easily handle links, phone numbers, emails, or trigger custom actions within your application.</Description>
 		<PackageTags>maui;richtext;label;controls</PackageTags>
 		<RepositoryUrl>https://github.com/jvicius/RichLabel.Maui</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
@@ -27,6 +27,11 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\LICENSE.txt" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.100" />
