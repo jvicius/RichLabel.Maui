@@ -20,6 +20,8 @@
                   Document="{Binding RichDocument}"
                   Margin="{OnIdiom Phone=10, Tablet=15, Default=15}"
                   IsResponsiveFontSize="True"/>
+            
+            <!-- Set IsResponsiveFontSize True if you need the font autosale in tablet-->
 
         </Grid>
         

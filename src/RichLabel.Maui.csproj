@@ -12,7 +12,7 @@
 
 		<!-- Metadata NuGet -->
 		<PackageId>RichLabel.Maui</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Jose Velarde</Authors>
 		<Description>RichLabel.Maui is a powerful and lightweight .NET MAUI control designed to dynamically render rich text directly from a JSON structure. It provides seamless, extensible support for interactive tap gestures, allowing you to easily handle links, phone numbers, emails, or trigger custom actions within your application.</Description>
 		<PackageTags>maui;richtext;label;controls</PackageTags>
