@@ -7,6 +7,12 @@ A powerful, flexible, and lightweight .NET MAUI control for rendering rich text 
 
 ---
 
+## Preview 
+
+![RichLabel.Maui Preview](https://raw.githubusercontent.com/jvicius/RichLabel.Maui/master/assets/preview.jpeg)
+
+---
+
 ## Features ✨
 
 * **JSON-Driven Text** — Render complex, formatted labels using a clean, well-structured JSON schema.
@@ -256,7 +262,7 @@ Each `actionType` in your JSON (e.g. `"phone"`, `"text"`) maps to a handler regi
 
 ## Contributing 🤝
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/) or open a pull request.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/jvicius/RichLabel.Maui/issues) or open a pull request.
 
 ## Support the Project ☕
 
